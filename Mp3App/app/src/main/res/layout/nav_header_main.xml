@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@drawable/custom_background_playnhac"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imgview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="Navigation header"
+        android:src="@drawable/avatar"/>
+    <TextView
+        android:id="@+id/txtten"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:paddingTop="8dp"
+        android:text="Android studio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txtgmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android.studio@android.com"/>
+</LinearLayout>
